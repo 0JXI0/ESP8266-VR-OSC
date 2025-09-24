@@ -24,6 +24,10 @@ For other HMDs, you can modify existing cases for the ESP8266.
 ## Firmware Setup
 Using the PlatformIO add-on for Visual Studio Code, import the project folder, and open `main.cpp`
 
+Choose whether you want to use DRV or PWM over IPC.
+- If you're using the Vibration motor module from the Hardware section it'll be PWM
+<img width="504" height="60" alt="image" src="https://github.com/user-attachments/assets/c09207c7-b65b-4bbf-9744-521455b24029" />
+
 Configure the AP and the IP of your PC.
 - `ssid` and `password`, will be the name and password of your wifi AP. 
 
